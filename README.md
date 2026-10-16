@@ -1,6 +1,6 @@
 # Axis
 
-Architecture and engineering capabilities extracted from BSF. Axis contains engineering roles, recipes, playbooks, optional stack profiles and project-document/specification templates. It works independently of Polaris, Meridian and Sentinel; optional integration is by reviewed references, never runtime imports.
+Architecture and engineering capabilities extracted from the original Polaris engineering scaffold. Axis contains engineering roles, recipes, playbooks, optional stack profiles and project-document/specification templates. It works independently of Polaris, Meridian and Sentinel; optional integration is by reviewed references, never runtime imports.
 
 ## Start
 Read [AGENTS.md](AGENTS.md), [operating rules](PROJECT_RULES.md) and [the project template index](docs/README.md). Draft project documents are slots for an adopting project, not claims about Axis's own implementation. Adopt only the templates relevant to the task and resolve material questions before implementing.

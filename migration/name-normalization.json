@@ -1,0 +1,41 @@
+{
+  "base_commit": "2cb53bfc96824c71d8b57c5e5340f29f1c41ccb5",
+  "scope": "Canonical product naming; immutable original Git objects and extraction provenance remain historical evidence. Source paths use reversible UTF-8 hex. This ledger excludes itself.",
+  "records": [
+    {
+      "action": "M",
+      "source_path_utf8_hex": "4348414e47454c4f472e6d64",
+      "path": "CHANGELOG.md",
+      "before_sha256": "06e8d0485fdd3f5e2ae65554f865e1f10b649c58c63162a62e1b15135e42929d",
+      "after_sha256": "6044c290647681256a6c2a75f57af24d4373f0153b9c5c99d5246367d85dbd01"
+    },
+    {
+      "action": "M",
+      "source_path_utf8_hex": "48414e444f46462e6d64",
+      "path": "HANDOFF.md",
+      "before_sha256": "39a5910e58ef6c25cf8966e7ed22bbc70bfd98d0ce88e7c7b855a9f2f0885b99",
+      "after_sha256": "712099b072bba97abe89c02d73c6e2164ab3aea2228f40193115503c36e96c71"
+    },
+    {
+      "action": "M",
+      "source_path_utf8_hex": "524541444d452e6d64",
+      "path": "README.md",
+      "before_sha256": "f4e88fab817302790dc10cc498ce1c99c9520413b3e7e520903eb5c330139e23",
+      "after_sha256": "530e93458d88ddd6ec340a78d546c046a396f0575fe14422abe722f902f51c30"
+    },
+    {
+      "action": "M",
+      "source_path_utf8_hex": "5354415455532e6d64",
+      "path": "STATUS.md",
+      "before_sha256": "e32c4c1580dd371c67b1f835d0211fa05825adf040101d20456eb6429ebb1d1e",
+      "after_sha256": "2c50931fa12d52dcfbc00027919a9c6e9fbeb574287d46fb8fdb82efd38e0b44"
+    },
+    {
+      "action": "M",
+      "source_path_utf8_hex": "70726f66696c65732f7765622d747970657363726970742e6d64",
+      "path": "profiles/web-typescript.md",
+      "before_sha256": "33130b0cbaa44030f1b93114aa252947fbc4a216eaca772b262d614dd09b192b",
+      "after_sha256": "56834551734120c28a325b4b798f9375418b786013322a2d8040ec01901104a5"
+    }
+  ]
+}
