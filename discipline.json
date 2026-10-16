@@ -1,0 +1,9 @@
+{
+  "version": 1,
+  "id": "axis",
+  "repository": "pedrobritx/axis",
+  "entrypoint": "AGENTS.md",
+  "context": ["README.md", "PROJECT_RULES.md", "docs/README.md", "agents/README.md"],
+  "owns": ["Reusable architecture and engineering methods", "Engineering roles, playbooks, templates and optional stack profiles"],
+  "outputs": ["Project architecture and interface decisions", "Implementation in the adopting product repository", "Functional, integration and performance evidence with remaining gaps"]
+}
