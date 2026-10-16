@@ -8,7 +8,7 @@ last_updated: 2026-10-15
 # Reference web TypeScript profile
 
 ## Purpose and adoption
-This optional profile preserves the existing BSF web-stack preferences. It applies only after a project explicitly adopts it and records its fit, exceptions and owner. Existing repository conventions take precedence over this reference; it authorises no replacement of an existing framework, provider or data model. A Swift/native, framework-free or other-platform project does not inherit this profile by adopting a capability.
+This optional profile preserves the existing Axis web-stack preferences. It applies only after a project explicitly adopts it and records its fit, exceptions and owner. Existing repository conventions take precedence over this reference; it authorises no replacement of an existing framework, provider or data model. A Swift/native, framework-free or other-platform project does not inherit this profile by adopting a capability.
 
 ## Historical technology preferences
 - TypeScript with strict checking; justify `any` escapes.
