@@ -2,12 +2,18 @@
 title: Documentation Index
 owner: Technical Writer
 status: Active
-last_updated: 2026-07-01
+last_updated: 2026-10-16
 ---
 
 # Documentation Index
 
-The Wikipedia main page of this project. Every document owns **one subject**; everything else links to it.
+This is a catalogue of optional adopter templates, not a description of Axis's own implemented product. Every adopted document owns **one subject**; everything else links to it.
+
+## Adopt the minimum
+
+Start with actual product intent/acceptance criteria, the affected architecture or interface, and a continuity record. Keep existing repository names and formats. Select other templates when the work needs them; do not copy every empty document, policy, recipe or business page into a new product. A Draft remains unanswered until the adopter supplies context and approves it.
+
+The generic design slots record whichever design system the product selects; Meridian's reusable tokens/components stay in Meridian. Security slots record the product's actual requirements and evidence; Sentinel supplies optional review methods. Completed Constellation product records belong in the Constellation repository. [Tracking patterns](../guides/project-tracking.md) are optional.
 
 ## Product — *why and what*
 - [Vision](product/VISION.md) — why the product exists

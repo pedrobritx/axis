@@ -2,7 +2,7 @@
 title: Design System
 owner: Design
 status: Draft
-last_updated: 2026-07-01
+last_updated: 2026-10-16
 depends_on: [BRANDING]
 related: [SCREENS, ACCESSIBILITY, ICON_GUIDELINES]
 ---
@@ -11,6 +11,8 @@ related: [SCREENS, ACCESSIBILITY, ICON_GUIDELINES]
 
 ## Purpose
 Owns UI rules: components, tokens, spacing, states, and interaction patterns.
+
+This is an adopter template. Record the product's selected design system, semantic mapping and deliberate deviations here. Reusable Meridian library decisions remain in Meridian; another system or native platform design can be selected without adopting Meridian or Polaris.
 
 ---
 

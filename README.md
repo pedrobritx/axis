@@ -17,4 +17,10 @@ python3 automation/validate_docs.py
 python3 -m unittest discover -s tests -v
 ```
 
-No repository is deployed or provisioned by these commands. This relocation selects no general redistribution licence; the existing licensing template remains unresolved. Review the coordinated migration before merging Polaris's removal branch.
+These commands validate Axis documentation/tooling. Select only relevant adopter templates; the licensing template remains unresolved. See [optional tracking patterns](guides/project-tracking.md) for project workflow examples.
+
+## Optional Constellation composition
+
+Polaris is the usual coordinating entry point; [the composition contract](https://github.com/pedrobritx/polaris/blob/main/integration/README.md) defines explicit adoption, task scope and evidence returns. [discipline.json](discipline.json) describes this capability without installing a runtime dependency. Start directly at this repository’s AGENTS.md for standalone work.
+
+When receiving a handoff, inspect the actual adopting project and retain its request ID, acceptance criteria, constraints and reviewed source revision. Return project artifacts, checks actually run, limitations, interface changes and blockers. Product-specific implementation/findings belong in the product repository; reusable capability improvements belong here. Excluded disciplines are explicit choices and never imply that their quality or safety checks passed.
