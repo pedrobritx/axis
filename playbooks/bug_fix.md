@@ -2,7 +2,7 @@
 title: "Playbook: Bug Fix"
 owner: Engineering
 status: Active
-last_updated: 2026-07-01
+last_updated: 2026-10-20
 ---
 
 # Playbook: Bug Fix
@@ -20,7 +20,7 @@ A defect in shipped behavior needs correction.
 2. Locate root cause (not symptom)
 3. Check `memory/mistakes.md` — has this class of bug happened before?
 4. Fix with the smallest correct change
-5. Run full test suite
+5. Run targeted regression checks locally, then broaden for affected contracts/risk per [Evidence-Based Engineering](../guides/evidence-based-engineering.md); retain any required adopted full suite before remote/shared publication
 6. Record the lesson in `memory/mistakes.md` if it is a recurring class
 
 ## Validation
