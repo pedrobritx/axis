@@ -2,7 +2,7 @@
 title: Definition of Done
 owner: QA Engineer
 status: Active
-last_updated: 2026-10-15
+last_updated: 2026-10-20
 ---
 
 # DONE — Definition of Done
@@ -20,7 +20,8 @@ Nothing is complete until every **applicable** item passes. "Not applicable" mus
 - [ ] No new dependency without Decision Engine check + license check
 
 ### Quality
-- [ ] Unit tests written and passing
+- [ ] Applicable local checks pass before remote/shared publication per [Evidence-Based Engineering](guides/evidence-based-engineering.md); environment and any scoped exceptions recorded
+- [ ] Behaviour tests added/updated and passing where behaviour changed; justify inapplicable checks
 - [ ] Integration tests for cross-system behavior
 - [ ] Error, loading, and empty states implemented and tested
 - [ ] Manual smoke test performed
@@ -33,7 +34,7 @@ Nothing is complete until every **applicable** item passes. "Not applicable" mus
 
 ### Instrumentation
 - [ ] Evidence of the intended outcome recorded. Analytics is optional and requires a justified purpose, minimal collection and explicit approval; follow `docs/engineering/OBSERVABILITY.md` if adopted.
-- [ ] Errors reported to the error tracker with useful context
+- [ ] Relevant failures are diagnosable through the adopted logging/error-reporting mechanism with sensitive data redacted; no new tracker is required solely for this checklist
 
 ### Documentation
 - [ ] Owning docs updated in the same PR

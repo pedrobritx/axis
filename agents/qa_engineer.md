@@ -2,7 +2,7 @@
 title: "Agent: QA Engineer"
 owner: CEO
 status: Active
-last_updated: 2026-10-15
+last_updated: 2026-10-20
 ---
 
 # Agent: QA Engineer
@@ -29,3 +29,5 @@ last_updated: 2026-10-15
 ## Escalation rules
 - Recurring bug class → memory/mistakes.md + Architect
 - DoD dispute → CEO
+
+Read [Evidence-Based Engineering](../guides/evidence-based-engineering.md) for local verification, contextual environment selection, risk-scaled tests and CI/reporting gates. Report environment and actual results; do not infer publication, merge or runtime success from a local pass.

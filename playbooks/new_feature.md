@@ -2,7 +2,7 @@
 title: "Playbook: New Feature"
 owner: Engineering
 status: Active
-last_updated: 2026-10-15
+last_updated: 2026-10-20
 ---
 
 # Playbook: New Feature
@@ -49,3 +49,5 @@ Acceptance criteria demonstrably met; applicable DONE.md checks pass; proportion
 - [ ] DONE.md fully satisfied
 - [ ] Learning written back (recipe/pattern/lesson)
 - [ ] Continuity records updated when state changed or unfinished work needs handoff
+
+Before Phase 4 remote/shared publication, apply [Evidence-Based Engineering](../guides/evidence-based-engineering.md): verify locally in Docker where feasible or the justified native environment, review the final diff and retain separate publication/merge/release authority. A local checkpoint is not a ship event.

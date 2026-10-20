@@ -2,7 +2,7 @@
 title: Axis operating rules
 owner: Maintainer
 status: Active
-last_updated: 2026-10-15
+last_updated: 2026-10-20
 ---
 
 # Axis operating rules
@@ -18,3 +18,5 @@ Axis is an independent engineering capability and project scaffold. It does not 
 - Authentication requirements live in the adopting project's security document; actual configuration lives in auth documentation. Root SECURITY.md handles repository reporting.
 - Analytics requires a justified purpose and explicit approval; tests or research can supply evidence without tracking.
 - No automatic merging or publication. Cross-repository migration is coordinated through reviewed commits.
+
+Apply [Evidence-Based Engineering](guides/evidence-based-engineering.md): local verification precedes remote/shared publication; Docker is the default where feasible with native Apple/contextual exceptions. Keep local Git checkpoints distinct from publication and merge/release. Required checks and existing human gates remain binding; use risk-scaled evidence and existing records.
